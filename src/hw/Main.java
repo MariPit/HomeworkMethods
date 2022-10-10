@@ -30,7 +30,7 @@ public class Main {
         String osString = osType == 0 ? "iOS" : "Android";
         String versionString = clientDeviceYear > 2015 ? "полную" : "облегченную";
         System.out.printf("Установите %s версию приложения для %s по ссылке", versionString, osString);
-        System.out.println();
+        System.out.println(" ");
     }
 
     public static int calculateDeliveryDays(int deliveryDistance) {
